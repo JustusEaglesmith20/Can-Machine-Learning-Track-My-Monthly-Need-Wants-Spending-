@@ -63,9 +63,7 @@ This project demonstrates the efficacy of simple Machine Learning models in spec
 
 ## Running the App
 
-To run the application locally:
-
-python app.py
+For a detailed view of the application's code, see the full app.py script.
 
 Note: To run the application locally, use the command python app.py and access it via a web browser at: http://127.0.0.1:8050/
 ---
