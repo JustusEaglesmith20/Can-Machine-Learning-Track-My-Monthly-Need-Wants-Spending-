@@ -5,7 +5,7 @@
 
 ### Can Decision Tree Classifiers Perform Better than Neural Networks at Classifying my Personal Expenses?
 
-![Alt Text](/images/your-gif-name.gif)
+![Alt Text](assets/weekly_spending_over_time.gif)
 
 In this project, I explore the intriguing possibility of a Decision Tree Classifier outperforming Neural Networks in classifying my personal expenses. This Jupyter notebook delves into the nuances of my transaction data, identifying patterns and anomalies. It plays a crucial role in refining my model, especially in differentiating necessary expenses ('Needs') from non-essential ones ('Wants').
 
