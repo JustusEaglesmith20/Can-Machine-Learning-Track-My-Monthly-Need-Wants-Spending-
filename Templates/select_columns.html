@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Columns</title>
+</head>
+<body>
+    <h1>Select Corresponding Columns</h1>
+    <form action="/select_columns" method="post">
+        <label for="amount">Select Amount Column:</label>
+        <select name="amount" id="amount">
+            {% for col in columns %}
+            <option value="{{ col }}">{{ col }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="description">Select Description Column:</label>
+        <select name="description" id="description">
+            {% for col in columns %}
+            <option value="{{ col }}">{{ col }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Results</h1>
+        <p>Your data has been processed successfully.</p>
+        <p>Selected Amount Column: {{ amount_column }}</p>
+        <p>Selected Description Column: {{ description_column }}</p>
+        <!-- You can add more content here, such as displaying data or charts -->
+        <a href="/">Upload another file</a>
+    </div>
+</body>
+</html>

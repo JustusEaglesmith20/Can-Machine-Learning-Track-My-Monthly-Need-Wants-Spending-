@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Spending Dashboard</h1>
+    <div id="chart"></div>
+
+    <script>
+        var summary = {{ summary | tojson }};
+        
+        var data = [{
+            x: summary.map(row => row.Predicted_Category),
+            y: summary.map(row => row[Object.keys(row)[1]]),
+            type: 'bar'
+        }];
+
+        Plotly.newPlot('chart', data);
+    </script>
+</body>
+</html>
