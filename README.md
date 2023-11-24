@@ -1,9 +1,7 @@
-# Can Decision Tree Classifiers Perform Better than Neural Networks at Classifying my Personal Expenses?
+# Can I use Machine Learning to Automatically Track my Needs & Wants Spending?
 # Personal Finance Dashboard Project
 
 ## Project Overview
-
-### Can Decision Tree Classifiers Perform Better than Neural Networks at Classifying my Personal Expenses?
 
 ![Alt Text](assets/weekly_spending_over_time.gif)
 
