@@ -1,4 +1,4 @@
-# Can I use Machine Learning to Automatically Track my Needs & Wants Spending?
+# Can I Use Machine Learning to Automatically Track my Monthly Needs & Wants Spending?
 # Personal Finance Dashboard Project
 
 ## Project Overview
